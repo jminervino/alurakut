@@ -1,5 +1,4 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import { AlurakutStyles } from "../src/lib/AlurakutCommons";
 
 const GlobalStyle = createGlobalStyle`
   /* Reset CSS*/
@@ -22,12 +21,7 @@ const GlobalStyle = createGlobalStyle`
 
   img {
     max-width: 100%;
-    height: auto;
-    flex-direction: column;
   }
-
-  
-  ${AlurakutStyles}
 `
 
 const theme = {

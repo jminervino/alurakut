@@ -1,6 +1,6 @@
 import MainGrid from '../src/components/MainGrid/index'
 import Box from '../src/components/Box/index'
-import { AlurakutMenu, OrkutNostalgicIconSet } from "../src/lib/AlurakutCommons"
+import { AlurakutMenu } from "../src/lib/AlurakutCommons"
 import { ProfileRelationsBoxWrapper } from '../src/components/ProfileRelations';
 
 function ProfileSidebar(propriedades) {
@@ -19,7 +19,7 @@ export default function Home() {
     "omariosouto",
     "peas",
     "rafaballerini",
-    "GiuseppeBruno-Py",
+    "marcobrunodev",
     "felipefialho"
   ]
 
@@ -32,10 +32,7 @@ export default function Home() {
         </div>
         <div style={{ gridArea: 'welcomeArea' }}>
           <Box>
-            <h1 className='Title'>
-              Bem Vindo(a)
-              <OrkutNostalgicIconSet/>
-            </h1>
+            Bem vindo
           </Box>
         </div>
         <div style={{ gridArea: 'profileRelationsArea' }}>
@@ -46,12 +43,10 @@ export default function Home() {
             <ul>
               {pessoasFavoritas.map((elementAtual) => {
                 return (
-                  <li>
-                    <a href={`users/${elementAtual}`} key={elementAtual}>
-                      <img src={`https://github.com/${elementAtual}.png`} />
-                      <span>{elementAtual}</span>
-                    </a>
-                  </li>
+                  <a href={`users/${elementAtual}`} key={elementAtual}>
+                    <img src={`https://github.com/${elementAtual}.png`} />
+                    <span>{elementAtual}</span>
+                  </a>
                 )
               })}
             </ul>

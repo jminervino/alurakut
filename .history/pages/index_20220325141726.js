@@ -19,7 +19,7 @@ export default function Home() {
     "omariosouto",
     "peas",
     "rafaballerini",
-    "GiuseppeBruno-Py",
+    "marcobrunodev",
     "felipefialho"
   ]
 
@@ -34,7 +34,7 @@ export default function Home() {
           <Box>
             <h1 className='Title'>
               Bem Vindo(a)
-              <OrkutNostalgicIconSet/>
+              <OrkutNostalgicIconSet>
             </h1>
           </Box>
         </div>

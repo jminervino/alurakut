@@ -19,7 +19,7 @@ export default function Home() {
     "omariosouto",
     "peas",
     "rafaballerini",
-    "GiuseppeBruno-Py",
+    "marcobrunodev",
     "felipefialho"
   ]
 
